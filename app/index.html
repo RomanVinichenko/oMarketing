@@ -1,538 +1,541 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marketing</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Raleway:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="css/slick.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marketing</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Raleway:wght@700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <body id="body">
+        <header class="header" id="home">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <div class="logo">
+                            <svg
+                                width="80"
+                                height="64"
+                                viewBox="0 0 80 64"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <svg
+                                    width="84"
+                                    height="64"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <g filter="url(#filter0_d)">
+                                        <path
+                                            d="M15.29 55.286c-3.36 0-5.976-.96-7.848-2.88-1.872-1.92-2.808-4.68-2.808-8.28V29.798h3.6v14.184c0 5.4 2.364 8.1 7.092 8.1 2.304 0 4.068-.66 5.292-1.98 1.224-1.344 1.836-3.384 1.836-6.12V29.798h3.492v14.328c0 3.624-.936 6.396-2.808 8.316-1.872 1.896-4.488 2.844-7.848 2.844zm41.4-.288l-.035-18.36-9.108 15.3H45.89l-9.108-15.192v18.252h-3.456v-25.2h2.952L46.79 47.51l10.368-17.712h2.952l.036 25.2H56.69z"
+                                            fill="#333"
+                                        />
+                                        <path
+                                            d="M76.678 19.63l-1.413-.432a.51.51 0 00-.536.145c-.343.388-.72.756-1.12 1.096-2.964 2.515-6.684 3.373-10.759 2.484-4.054-.884-5.918-3.231-8.497-6.479l-.564-.708a2.702 2.702 0 01-.075-.102c-.071-.1-.16-.224-.286-.347a4.653 4.653 0 00-.552-.462 1.822 1.822 0 01-.74-1.247l-.434-3.321a.579.579 0 00-.205-.37.547.547 0 00-.395-.126l-2.14.188a.513.513 0 00-.46.59l.417 3.185c.045.35-.068.704-.31.974-.37.412-.558.92-.545 1.47.169 6.948 4.828 12.091 12.463 13.758 3.295.719 6.8.289 9.867-1.211a14.32 14.32 0 001.75-1.012 12.861 12.861 0 002.078-1.75c1.104-1.154 1.907-2.447 2.387-3.842.205-.599.362-1.22.465-1.845a.575.575 0 00-.396-.636zm-27.045-8.642l1.08-.095.288 2.201-.436.011-.653.016-.279-2.133zm21.898 15.8c-2.97 2.014-7.001 2.908-10.828 2.073-7.09-1.547-11.415-6.284-11.57-12.67-.008-.342.148-.59.28-.737.315-.351.51-.786.567-1.244l1.209-.03a2.968 2.968 0 001.102 1.528c.148.105.288.222.416.347.053.052.1.118.154.194.035.048.07.099.112.15l.562.706c2.623 3.304 4.696 5.914 9.139 6.883 2.226.486 4.375.485 6.387-.004a12.652 12.652 0 004.996-2.48l.036.017.192.093a10.303 10.303 0 01-2.888 2.961c-2.496 1.694-5.735 2.304-9.08 1.574-5.21-1.137-8.92-3.94-10.45-7.895a.555.555 0 00-.694-.336.525.525 0 00-.297.694c1.672 4.327 5.672 7.382 11.264 8.602 2.728.595 5.438.378 7.836-.627a11.719 11.719 0 002.051-1.109 11.29 11.29 0 003.25-3.379l.147.072c-.755 1.846-2.139 3.427-3.893 4.616zm4.24-5.634l-.219-.106-.63-.308c.135-.132.267-.267.395-.404l.61.187a10.44 10.44 0 01-.156.631z"
+                                            fill="#000"
+                                        />
+                                    </g>
+                                    <defs>
+                                        <filter
+                                            id="filter0_d"
+                                            x=".634"
+                                            y="0"
+                                            width="82.469"
+                                            height="63.285"
+                                            filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB"
+                                        >
+                                            <feFlood
+                                                flood-opacity="0"
+                                                result="BackgroundImageFix"
+                                            />
+                                            <feColorMatrix
+                                                in="SourceAlpha"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                            />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="2" />
+                                            <feColorMatrix
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                                            />
+                                            <feBlend
+                                                in2="BackgroundImageFix"
+                                                result="effect1_dropShadow"
+                                            />
+                                            <feBlend
+                                                in="SourceGraphic"
+                                                in2="effect1_dropShadow"
+                                                result="shape"
+                                            />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </svg>
+                        </div>
+                        <nav class="menu">
+                            <button class="menu__btn">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="30"
+                                    height="18"
+                                    viewBox="0 0 30 18"
+                                    fill="none"
+                                >
+                                    <path d="M0 0H30V2H0V0Z" fill="black" />
+                                    <path d="M0 8H30V10H0V8Z" fill="black" />
+                                    <rect y="16" width="30" height="2" fill="black" />
+                                </svg>
+                            </button>
+                            <ul class="menu__list">
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#body"> HOME </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#about"> ABOUT US </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#portfolio"> PORTFOLIO </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#team"> OUR TEAM </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#blog"> BLOG </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__list-link" href="#contact"> CONTACT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header__content">
+                <div class="container">
+                    <div class="header__content-inner">
+                        <h1 class="header__title">Uh...MARKETING</h1>
+                        <h4 class="header__subtitle">DIGITAL MARKETING AGENCY</h4>
+                        <a class="header__icon" href="#">
+                            <img src="images/mouse.svg" alt="mouse icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-<body id="body">
-  <header class="header" id="home">
-    <div class="header__top">
-      <div class="container">
-        <div class="header__top-inner">
-          <div class="logo">
-            <svg width="80" height="64" viewBox="0 0 80 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <svg width="84" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d)"><path d="M15.29 55.286c-3.36 0-5.976-.96-7.848-2.88-1.872-1.92-2.808-4.68-2.808-8.28V29.798h3.6v14.184c0 5.4 2.364 8.1 7.092 8.1 2.304 0 4.068-.66 5.292-1.98 1.224-1.344 1.836-3.384 1.836-6.12V29.798h3.492v14.328c0 3.624-.936 6.396-2.808 8.316-1.872 1.896-4.488 2.844-7.848 2.844zm41.4-.288l-.035-18.36-9.108 15.3H45.89l-9.108-15.192v18.252h-3.456v-25.2h2.952L46.79 47.51l10.368-17.712h2.952l.036 25.2H56.69z" fill="#333"/><path d="M76.678 19.63l-1.413-.432a.51.51 0 00-.536.145c-.343.388-.72.756-1.12 1.096-2.964 2.515-6.684 3.373-10.759 2.484-4.054-.884-5.918-3.231-8.497-6.479l-.564-.708a2.702 2.702 0 01-.075-.102c-.071-.1-.16-.224-.286-.347a4.653 4.653 0 00-.552-.462 1.822 1.822 0 01-.74-1.247l-.434-3.321a.579.579 0 00-.205-.37.547.547 0 00-.395-.126l-2.14.188a.513.513 0 00-.46.59l.417 3.185c.045.35-.068.704-.31.974-.37.412-.558.92-.545 1.47.169 6.948 4.828 12.091 12.463 13.758 3.295.719 6.8.289 9.867-1.211a14.32 14.32 0 001.75-1.012 12.861 12.861 0 002.078-1.75c1.104-1.154 1.907-2.447 2.387-3.842.205-.599.362-1.22.465-1.845a.575.575 0 00-.396-.636zm-27.045-8.642l1.08-.095.288 2.201-.436.011-.653.016-.279-2.133zm21.898 15.8c-2.97 2.014-7.001 2.908-10.828 2.073-7.09-1.547-11.415-6.284-11.57-12.67-.008-.342.148-.59.28-.737.315-.351.51-.786.567-1.244l1.209-.03a2.968 2.968 0 001.102 1.528c.148.105.288.222.416.347.053.052.1.118.154.194.035.048.07.099.112.15l.562.706c2.623 3.304 4.696 5.914 9.139 6.883 2.226.486 4.375.485 6.387-.004a12.652 12.652 0 004.996-2.48l.036.017.192.093a10.303 10.303 0 01-2.888 2.961c-2.496 1.694-5.735 2.304-9.08 1.574-5.21-1.137-8.92-3.94-10.45-7.895a.555.555 0 00-.694-.336.525.525 0 00-.297.694c1.672 4.327 5.672 7.382 11.264 8.602 2.728.595 5.438.378 7.836-.627a11.719 11.719 0 002.051-1.109 11.29 11.29 0 003.25-3.379l.147.072c-.755 1.846-2.139 3.427-3.893 4.616zm4.24-5.634l-.219-.106-.63-.308c.135-.132.267-.267.395-.404l.61.187a10.44 10.44 0 01-.156.631z" fill="#000"/></g><defs><filter id="filter0_d" x=".634" y="0" width="82.469" height="63.285" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="4"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/><feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/></filter></defs></svg>
-            </svg>
-          </div>
-          <nav class="menu">
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__inner">
+                    <h2 class="title about__title">About Us</h2>
+                    <div class="about__text">
+                        <p>
+                            Практика показывает, что большие продажи далеко не всегда зависят от
+                            того, сколько вы потратите на продвижение сайта и рекламную кампанию.
+                            Значительно сильнее конечный результат зависит от правильной организации
+                            кампании. Мы достигаем максимальной эффективности и помогаем сберечь
+                            бюджеты наших клиентов, используя стратегический интернет-маркетинг.
+                        </p>
+                        <p>
+                            Определяем цели продвижения — что наш клиент хочет получить, когда
+                            работа будет сделана. Проводим маркетинговые исследования рынка, целевой
+                            аудитории, конкурентной среды. При разработке стратегии учитываем все
+                            имеющиеся данные.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <button class="menu__btn">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18" fill="none">
-                <path d="M0 0H30V2H0V0Z" fill="black" />
-                <path d="M0 8H30V10H0V8Z" fill="black" />
-                <rect y="16" width="30" height="2" fill="black" />
-              </svg>
+        <section class="expertise">
+            <div class="container">
+                <h2 class="title expertise__title">Our Expertise</h2>
+                <div class="expertise__inner">
+                    <div class="expertise__info">
+                        <div class="expertise__info-item">
+                            BRANDING
+                            <span style="width: calc(100% - 90%)">90%</span>
+                        </div>
+                        <div class="expertise__info-item">
+                            DESIGN
+                            <span style="width: calc(100% - 80%)">80%</span>
+                        </div>
+                        <div class="expertise__info-item">
+                            DEVELOPMENT
+                            <span style="width: calc(100% - 85%)">85%</span>
+                        </div>
+                    </div>
+                    <div class="expertise__text">
+                        <p>
+                            В стратегию интернет-маркетинга входит создание имиджевой и рекламной
+                            концепции, разработка контент-стратегии, распределение использования
+                            различных каналов коммуникации.
+                        </p>
+                        <p>
+                            Реализуем принятую стратегию, отслеживая промежуточные результаты, и
+                            корректируя будущие действия с учетом изменений. Главной целью в этом
+                            процессе для нас является конечный результат, а не следование планам.
+                        </p>
+                    </div>
+                </div>
+                <div class="expertise__items">
+                    <div class="expertise__item expertise__item--design">
+                        <h4 class="expertise__item-title">GRAPHIC DESIGN</h4>
+                        <p class="expertise__item-text">
+                            Рекламный дизайн, дизайн упаковки, этикетки, листовок, каталогов,
+                            разработка презентаций, дизайн выставочных стендов
+                        </p>
+                    </div>
+                    <div class="expertise__item expertise__item--dev">
+                        <h4 class="expertise__item-title">WEB DEVELOPMENT</h4>
+                        <p class="expertise__item-text">
+                            Разрабатываем веб сайты от концепции до реализации. Дизайн, верстка,
+                            программирование и запуск сайт в сеть
+                        </p>
+                    </div>
+                    <div class="expertise__item expertise__item--marketing">
+                        <h4 class="expertise__item-title">WEB DEVELOPMENT</h4>
+                        <p class="expertise__item-text">
+                            Разрабатываем маркетинговое и рекламное продвижение Вашего продукта или
+                            услуги под ключ и на любой бюджет.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            </button>
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#body">
-                  HOME
+        <section class="magic">
+            <div class="container">
+                <div class="magic__inner">
+                    <h2 class="title magic__title">Let’s make magic.</h2>
+                    <div class="magic__text">
+                        <p>
+                            Маркетинговое агентство MGN: полный комплекс маркетинговых, рекламных и
+                            дизайнерских услуг в Харькове и Украине: маркетинговые исследования
+                            рынков, товаров, потребителей, планирование комплекса маркетинга,
+                            реклама, проведение рекламных кампаний, брендинг, рекламный дизайн, pr.
+                        </p>
+                        <p>
+                            Нами накоплен немалый опыт работы в реальном бизнесе, в самых различных
+                            отраслях – от недвижимости до аптечного и медицинского бизнеса. Мы не
+                            просто беремся решать задачи наших клиентов, мы сами вышли из
+                            бизнес-среды и понимаем суть бизнес-процессов.
+                        </p>
+                        <p>Мы говорим с бизнесом на одном языке!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="portfolio__top">
+                    <h2 class="title">Portfolio</h2>
+                    <div class="portfolio__filter-btn">
+                        <button class="portfolio__btn" data-filter="all">ALL</button>
+                        <button class="portfolio__btn" data-filter=".category-a">BRANDING</button>
+                        <button class="portfolio__btn" data-filter=".category-b">DESIGN</button>
+                        <button class="portfolio__btn" data-filter=".category-c">
+                            PHOTOGRAPHY
+                        </button>
+                        <button class="portfolio__btn" data-filter=".category-d">
+                            ILLUSTRATION
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__content">
+                <div class="portfolio__item mix category-a">
+                    <img src="images/portfolio/1.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-a">
+                    <img src="images/portfolio/2.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-b">
+                    <img src="images/portfolio/3.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-b">
+                    <img src="images/portfolio/4.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-b">
+                    <img src="images/portfolio/5.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-c">
+                    <img src="images/portfolio/6.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-c">
+                    <img src="images/portfolio/7.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-c">
+                    <img src="images/portfolio/8.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+                <div class="portfolio__item mix category-d">
+                    <img src="images/portfolio/9.jpg" alt="portfolio images" />
+                    <a class="portfolio__item-link" href="#"> SHOW PROJECT </a>
+                </div>
+            </div>
+
+            <a class="portfolio__add" href="#"> VIEW MORE PROJECTS </a>
+
+            <blockquote class="blockquote">
+                «Неважно какую историю вы рассказываете, главное – сделайте своего покупателя
+                героем»
+                <span class="blockquote__author">Крис Броган</span>
+            </blockquote>
+
+            <div class="portfolio__video">
+                <a
+                    data-fancybox
+                    class="prtfolio__video-link"
+                    href="https://www.youtube.com/watch?v=1RFryFfLmNI&t=9834s"
+                >
+                    <img src="images/play.svg" alt="play icon" />
                 </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#about">
-                  ABOUT US
+            </div>
+            <div class="container">
+                <div class="portfolio__numbers">
+                    <h5 class="portfolio__numbers-item">
+                        305
+                        <span>Web Design</span>
+                    </h5>
+                    <h5 class="portfolio__numbers-item">
+                        220
+                        <span>Logo Design</span>
+                    </h5>
+                    <h5 class="portfolio__numbers-item">
+                        55
+                        <span>Print Design</span>
+                    </h5>
+                    <h5 class="portfolio__numbers-item">
+                        88
+                        <span>Mobile Apps</span>
+                    </h5>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider-blog" id="blog">
+            <div class="container">
+                <div class="slider-blog__inner">
+                    <div class="slider-blog__item">
+                        <a class="slider-blog__item-link" href="#">
+                            <h3 class="slider-blog__item-title">
+                                АНИМИРОВАННЫЙ ЛОГОТИП – ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
+                            </h3>
+                        </a>
+                        <p class="slider-blog__item-descr">
+                            Что представляет собой анимированный логотип, и в чем его преимущества?
+                            И почему сейчас это модно? Давайте обсудим.
+                        </p>
+                    </div>
+                    <div class="slider-blog__item">
+                        <a class="slider-blog__item-link" href="#">
+                            <h3 class="slider-blog__item-title">
+                                АНИМИРОВАННЫЙ ЛОГОТИП – ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
+                            </h3>
+                        </a>
+                        <p class="slider-blog__item-descr">
+                            Что представляет собой анимированный логотип, и в чем его преимущества?
+                            И почему сейчас это модно? Давайте обсудим.
+                        </p>
+                    </div>
+                    <div class="slider-blog__item">
+                        <a class="slider-blog__item-link" href="#">
+                            <h3 class="slider-blog__item-title">
+                                АНИМИРОВАННЫЙ ЛОГОТИП – ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
+                            </h3>
+                        </a>
+                        <p class="slider-blog__item-descr">
+                            Что представляет собой анимированный логотип, и в чем его преимущества?
+                            И почему сейчас это модно? Давайте обсудим.
+                        </p>
+                    </div>
+                    <div class="slider-blog__item">
+                        <a class="slider-blog__item-link" href="#">
+                            <h3 class="slider-blog__item-title">
+                                АНИМИРОВАННЫЙ ЛОГОТИП – ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
+                            </h3>
+                        </a>
+                        <p class="slider-blog__item-descr">
+                            Что представляет собой анимированный логотип, и в чем его преимущества?
+                            И почему сейчас это модно? Давайте обсудим.
+                        </p>
+                    </div>
+                    <div class="slider-blog__item">
+                        <a class="slider-blog__item-link" href="#">
+                            <h3 class="slider-blog__item-title">
+                                АНИМИРОВАННЫЙ ЛОГОТИП – ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
+                            </h3>
+                        </a>
+                        <p class="slider-blog__item-descr">
+                            Что представляет собой анимированный логотип, и в чем его преимущества?
+                            И почему сейчас это модно? Давайте обсудим.
+                        </p>
+                    </div>
+                    <div class="slider-blog__item">
+                        <a class="slider-blog__item-link" href="#">
+                            <h3 class="slider-blog__item-title">
+                                АНИМИРОВАННЫЙ ЛОГОТИП – ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
+                            </h3>
+                        </a>
+                        <p class="slider-blog__item-descr">
+                            Что представляет собой анимированный логотип, и в чем его преимущества?
+                            И почему сейчас это модно? Давайте обсудим.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="team">
+            <div class="container">
+                <h2 class="title team__title">OUR TEAM</h2>
+                <div class="team__items">
+                    <div class="team__item">
+                        <img src="images/team-1.jpg" alt="МАКС" />
+                        <h6 class="team__name">МАКС</h6>
+                        <div class="team__position">CEO</div>
+                    </div>
+                    <div class="team__item">
+                        <img src="images/team-2.jpg" alt="АНЯ" />
+                        <h6 class="team__name">АНЯ</h6>
+                        <div class="team__position">Co-Founder</div>
+                    </div>
+                    <div class="team__item">
+                        <img src="images/team-3.jpg" alt="МИЛА" />
+                        <h6 class="team__name">МИЛА</h6>
+                        <div class="team__position">Designer</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <h2 class="title pricing__title">Pricing Plans</h2>
+                <div class="pricing__items">
+                    <ul class="pricing__item">
+                        <li class="pricing__item-name">Basic</li>
+                        <li class="pricing__item-num"><sup>$</sup>290</li>
+                        <li>1 Logo Design</li>
+                        <li>1 Website Design</li>
+                        <li>1 Domain Free</li>
+                        <li>3 Month License</li>
+                        <li>1 GB Storage</li>
+                        <li>
+                            <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
+                        </li>
+                    </ul>
+                    <ul class="pricing__item">
+                        <li class="pricing__item-name">Starter</li>
+                        <li class="pricing__item-num"><sup>$</sup>500</li>
+                        <li>2 Logo Design</li>
+                        <li>2 Website Design</li>
+                        <li>1 Domain Free</li>
+                        <li>6 Month License</li>
+                        <li>1 GB Storage</li>
+                        <li>
+                            <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
+                        </li>
+                    </ul>
+                    <ul class="pricing__item">
+                        <li class="pricing__item-name">Professional</li>
+                        <li class="pricing__item-num"><sup>$</sup>1500</li>
+                        <li>3 Logo Design</li>
+                        <li>3 Website Design</li>
+                        <li>2 Domain Free</li>
+                        <li>12 Month License</li>
+                        <li>2 GB Storage</li>
+                        <li>
+                            <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="clients">
+            <div class="container">
+                <ul class="clients__list">
+                    <li><img src="images/clients/1.png" alt="client1" /></li>
+                    <li><img src="images/clients/2.png" alt="client2" /></li>
+                    <li><img src="images/clients/3.png" alt="client3" /></li>
+                    <li><img src="images/clients/4.png" alt="client4" /></li>
+                    <li><img src="images/clients/5.png" alt="client5" /></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="connection" id="contact">
+            <div class="container">
+                <h2 class="title connection__title">Get in Touch</h2>
+                <form class="form">
+                    <input type="text" placeholder="ИМЯ" />
+                    <input type="text" placeholder="EMAIL" />
+                    <textarea placeholder="ВАШЕ СООБЩЕНИЕ"></textarea>
+                    <button type="submit">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__top">
+                <a class="footer__logo" href="#">
+                    <img src="images/logo-white.svg" alt="Логотип" />
                 </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#portfolio">
-                  PORTFOLIO
+                <ul class="footer__social">
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="#"> FACEBOOK </a>
+                    </li>
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="#"> TWITTER </a>
+                    </li>
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="#"> GOOGLE+ </a>
+                    </li>
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="#"> BEHANCE </a>
+                    </li>
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="#"> DRIBBLE </a>
+                    </li>
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="#"> INSTAGRAM </a>
+                    </li>
+                </ul>
+                <div class="footer__contact">
+                    <adress> Украина, Харьков ул. Тобольская, 63 </adress>
+                    <a class="phone" href="tel:3806765252222">(38067) 65 252 222</a>
+                    <a class="email" href="mailto:info@mail.com">info@mail.com</a>
+                </div>
+                <a class="to-top" href="#body">
+                    <img src="images/angle-up.svg" alt="arrow top" />
                 </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#team">
-                  OUR TEAM
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#blog">
-                  BLOG
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#contact">
-                  CONTACT
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <div class="header__content">
-      <div class="container">
-        <div class="header__content-inner">
-          <h1 class="header__title">
-            Uh...MARKETING
-          </h1>
-          <h4 class="header__subtitle">
-            DIGITAL MARKETING AGENCY
-          </h4>
-          <a class="header__icon" href="#">
-            <img src="images/mouse.svg" alt="mouse icon">
-          </a>
-        </div>
-      </div>
-    </div>
-  </header>
+            </div>
+            <div class="footer__copy">
+                <p>@2020 O...Marketing</p>
+            </div>
+        </footer>
 
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about__inner">
-        <h2 class="title about__title">
-          About Us
-        </h2>
-        <div class="about__text">
-          <p>
-            Практика показывает, что большие продажи далеко не всегда зависят от того, сколько вы потратите на
-            продвижение
-            сайта и рекламную кампанию. Значительно сильнее конечный результат зависит от правильной организации
-            кампании.
-            Мы достигаем максимальной эффективности и помогаем сберечь бюджеты наших клиентов, используя стратегический
-            интернет-маркетинг.
-          </p>
-          <p calss="">Определяем цели продвижения — что наш клиент хочет получить, когда работа будет сделана. Проводим
-            маркетинговые исследования рынка, целевой аудитории, конкурентной среды. При разработке стратегии учитываем
-            все имеющиеся данные.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="expertise">
-    <div class="container">
-      <h2 class="title expertise__title">Our Expertise</h2>
-      <div class="expertise__inner">
-        <div class="expertise__info">
-          <div class="expertise__info-item">
-            BRANDING
-            <span style="width: calc(100% - 90%)">90%</span>
-          </div>
-          <div class="expertise__info-item">
-            DESIGN
-            <span style="width: calc(100% - 80%)">80%</span>
-          </div>
-          <div class="expertise__info-item">
-            DEVELOPMENT
-            <span style="width: calc(100% - 85%)">85%</span>
-          </div>
-        </div>
-        <div class="expertise__text">
-          <p>
-            В стратегию интернет-маркетинга входит создание имиджевой и рекламной концепции, разработка
-            контент-стратегии, распределение использования различных каналов коммуникации.
-          </p>
-          <p>
-            Реализуем принятую стратегию, отслеживая промежуточные результаты, и корректируя будущие действия с учетом
-            изменений. Главной целью в этом процессе для нас является конечный результат, а не следование планам.
-          </p>
-        </div>
-      </div>
-      <div class="expertise__items">
-        <div class="expertise__item expertise__item--design">
-          <h4 class="expertise__item-title">
-            GRAPHIC DESIGN
-          </h4>
-          <p class="expertise__item-text">
-            Рекламный дизайн, дизайн упаковки, этикетки, листовок, каталогов, разработка презентаций, дизайн выставочных
-            стендов
-          </p>
-        </div>
-        <div class="expertise__item expertise__item--dev">
-          <h4 class="expertise__item-title">
-            WEB DEVELOPMENT
-          </h4>
-          <p class="expertise__item-text">
-            Разрабатываем веб сайты от концепции до реализации. Дизайн, верстка, программирование и запуск сайт в сеть
-          </p>
-        </div>
-        <div class="expertise__item expertise__item--marketing">
-          <h4 class="expertise__item-title">
-            WEB DEVELOPMENT
-          </h4>
-          <p class="expertise__item-text">
-            Разрабатываем маркетинговое и рекламное продвижение Вашего продукта или услуги под ключ и на любой бюджет.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="magic">
-    <div class="container">
-      <div class="magic__inner">
-        <h2 class="title magic__title">
-          Let’s make magic.
-        </h2>
-        <div class="magic__text">
-          <p>Маркетинговое агентство MGN: полный комплекс маркетинговых, рекламных и дизайнерских услуг в Харькове и
-            Украине: маркетинговые исследования рынков, товаров, потребителей, планирование комплекса маркетинга,
-            реклама, проведение рекламных кампаний, брендинг, рекламный дизайн, pr.
-          </p>
-          <p>Нами накоплен немалый опыт работы в реальном бизнесе, в самых различных отраслях – от недвижимости до
-            аптечного и медицинского бизнеса. Мы не просто беремся решать задачи наших клиентов, мы сами вышли из
-            бизнес-среды и понимаем суть бизнес-процессов.
-          </p>
-          <p>Мы говорим с бизнесом на одном языке!
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <div class="portfolio__top">
-        <h2 class="title">Portfolio</h2>
-        <div class="portfolio__filter-btn">
-          <button class="portfolio__btn" data-filter="all">ALL</button>
-          <button class="portfolio__btn" data-filter=".category-a">BRANDING</button>
-          <button class="portfolio__btn" data-filter=".category-b">DESIGN</button>
-          <button class="portfolio__btn" data-filter=".category-c">PHOTOGRAPHY</button>
-          <button class="portfolio__btn" data-filter=".category-d">ILLUSTRATION</button>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio__content">
-      <div class="portfolio__item mix category-a">
-        <img src="images/portfolio/1.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-a">
-        <img src="images/portfolio/2.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-b">
-        <img src="images/portfolio/3.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-b">
-        <img src="images/portfolio/4.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-b">
-        <img src="images/portfolio/5.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-c">
-        <img src="images/portfolio/6.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-c">
-        <img src="images/portfolio/7.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-c">
-        <img src="images/portfolio/8.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-      <div class="portfolio__item mix category-d">
-        <img src="images/portfolio/9.jpg" alt="portfolio images">
-        <a class="portfolio__item-link" href="#">
-          SHOW PROJECT
-        </a>
-      </div>
-    </div>
-
-    <a class="portfolio__add" href="#">
-      VIEW MORE PROJECTS
-    </a>
-
-    <blockquote class="blockquote">
-      «Неважно какую историю вы рассказываете, главное – сделайте своего покупателя героем»
-      <span class="blockquote__author">Крис Броган</span>
-    </blockquote>
-
-    <div class="portfolio__video">
-      <a data-fancybox class="prtfolio__video-link" href="https://www.youtube.com/watch?v=1RFryFfLmNI&t=9834s">
-        <img src="images/play.svg" alt="play icon">
-      </a>
-    </div>
-    <div class="container">
-      <div class="portfolio__numbers">
-        <h5 class="portfolio__numbers-item">
-          305
-          <span>Web Design</span>
-        </h5>
-        <h5 class="portfolio__numbers-item">
-          220
-          <span>Logo Design</span>
-        </h5>
-        <h5 class="portfolio__numbers-item">
-          55
-          <span>Print Design</span>
-        </h5>
-        <h5 class="portfolio__numbers-item">
-          88
-          <span>Mobile Apps</span>
-        </h5>
-      </div>
-    </div>
-  </section>
-
-  <section class="slider-blog" id="blog">
-    <div class="container">
-      <div class="slider-blog__inner">
-        <div class="slider-blog__item">
-          <a class="slider-blog__item-link" href="#">
-            <h3 class="slider-blog__item-title">
-              АНИМИРОВАННЫЙ ЛОГОТИП –
-              ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
-            </h3>
-          </a>
-          <p class="slider-blog__item-descr">
-            Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это модно? Давайте
-            обсудим.
-          </p>
-        </div>
-        <div class="slider-blog__item">
-          <a class="slider-blog__item-link" href="#">
-            <h3 class="slider-blog__item-title">
-              АНИМИРОВАННЫЙ ЛОГОТИП –
-              ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
-            </h3>
-          </a>
-          <p class="slider-blog__item-descr">
-            Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это модно? Давайте
-            обсудим.
-          </p>
-        </div>
-        <div class="slider-blog__item">
-          <a class="slider-blog__item-link" href="#">
-            <h3 class="slider-blog__item-title">
-              АНИМИРОВАННЫЙ ЛОГОТИП –
-              ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
-            </h3>
-          </a>
-          <p class="slider-blog__item-descr">
-            Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это модно? Давайте
-            обсудим.
-          </p>
-        </div>
-        <div class="slider-blog__item">
-          <a class="slider-blog__item-link" href="#">
-            <h3 class="slider-blog__item-title">
-              АНИМИРОВАННЫЙ ЛОГОТИП –
-              ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
-            </h3>
-          </a>
-          <p class="slider-blog__item-descr">
-            Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это модно? Давайте
-            обсудим.
-          </p>
-        </div>
-        <div class="slider-blog__item">
-          <a class="slider-blog__item-link" href="#">
-            <h3 class="slider-blog__item-title">
-              АНИМИРОВАННЫЙ ЛОГОТИП –
-              ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
-            </h3>
-          </a>
-          <p class="slider-blog__item-descr">
-            Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это модно? Давайте
-            обсудим.
-          </p>
-        </div>
-        <div class="slider-blog__item">
-          <a class="slider-blog__item-link" href="#">
-            <h3 class="slider-blog__item-title">
-              АНИМИРОВАННЫЙ ЛОГОТИП –
-              ТРЕНД ИЛИ НЕОБХОДИМОСТЬ?
-            </h3>
-          </a>
-          <p class="slider-blog__item-descr">
-            Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это модно? Давайте
-            обсудим.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="team" id="team">
-    <div class="container">
-      <h2 class="title team__title">
-        OUR TEAM
-      </h2>
-      <div class="team__items">
-        <div class="team__item">
-          <img src="images/team-1.jpg" alt="МАКС">
-          <h6 class="team__name">МАКС</h6>
-          <div class="team__position">CEO</div>
-        </div>
-        <div class="team__item">
-          <img src="images/team-2.jpg" alt="АНЯ">
-          <h6 class="team__name">АНЯ</h6>
-          <div class="team__position">Co-Founder</div>
-        </div>
-        <div class="team__item">
-          <img src="images/team-3.jpg" alt="МИЛА">
-          <h6 class="team__name">МИЛА</h6>
-          <div class="team__position">Designer</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pricing">
-    <div class="container">
-      <h2 class="title pricing__title">Pricing Plans</h2>
-      <div class="pricing__items">
-        <ul class="pricing__item">
-          <li class="pricing__item-name">Basic</li>
-          <li class="pricing__item-num"><sup>$</sup>290</li>
-          <li>1 Logo Design</li>
-          <li>1 Website Design</li>
-          <li>1 Domain Free</li>
-          <li>3 Month License</li>
-          <li>1 GB Storage</li>
-          <li>
-            <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
-          </li>
-        </ul>
-        <ul class="pricing__item">
-          <li class="pricing__item-name">Starter</li>
-          <li class="pricing__item-num"><sup>$</sup>500</li>
-          <li>2 Logo Design</li>
-          <li>2 Website Design</li>
-          <li>1 Domain Free</li>
-          <li>6 Month License</li>
-          <li>1 GB Storage</li>
-          <li>
-            <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
-          </li>
-        </ul>
-        <ul class="pricing__item">
-          <li class="pricing__item-name">Professional</li>
-          <li class="pricing__item-num"><sup>$</sup>1500</li>
-          <li>3 Logo Design</li>
-          <li>3 Website Design</li>
-          <li>2 Domain Free</li>
-          <li>12 Month License</li>
-          <li>2 GB Storage</li>
-          <li>
-            <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <div class="clients">
-    <div class="container">
-      <ul class="clients__list">
-        <li><img src="images/clients/1.png" alt="client1"></li>
-        <li><img src="images/clients/2.png" alt="client2"></li>
-        <li><img src="images/clients/3.png" alt="client3"></li>
-        <li><img src="images/clients/4.png" alt="client4"></li>
-        <li><img src="images/clients/5.png" alt="client5"></li>
-      </ul>
-    </div>
-  </div>
-
-  <section class="connection" id="contact">
-    <div class="container">
-      <h2 class="title connection__title">
-        Get in Touch
-      </h2>
-      <form class="form">
-        <input type="text" placeholder="ИМЯ">
-        <input type="text" placeholder="EMAIL">
-        <textarea placeholder="ВАШЕ СООБЩЕНИЕ"></textarea>
-        <button type="submit">ОТПРАВИТЬ</button>
-      </form>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="footer__top">
-      <a class="footer__logo" href="#">
-        <img src="images/logo-white.svg" alt="Логотип">
-      </a>
-      <ul class="footer__social">
-        <li class="footer__social-list">
-          <a class="footer__social-link" href="#">
-            FACEBOOK
-          </a>
-        </li>
-        <li class="footer__social-list">
-          <a class="footer__social-link" href="#">
-            TWITTER
-          </a>
-        </li>
-        <li class="footer__social-list">
-          <a class="footer__social-link" href="#">
-            GOOGLE+
-          </a>
-        </li>
-        <li class="footer__social-list">
-          <a class="footer__social-link" href="#">
-            BEHANCE
-          </a>
-        </li>
-        <li class="footer__social-list">
-          <a class="footer__social-link" href="#">
-            DRIBBLE
-          </a>
-        </li>
-        <li class="footer__social-list">
-          <a class="footer__social-link" href="#">
-            INSTAGRAM
-          </a>
-        </li>
-      </ul>
-      <div class="footer__contact">
-        <adress class="adress">
-          Украина, Харьков ул. Тобольская, 63
-        </adress>
-        <a class="phone" href="tel:3806765252222">(38067) 65 252 222</a>
-        <a class="email" href="mailto:info@mail.com">info@mail.com</a>
-      </div>
-      <a class="to-top" href="#body">
-        <img src="images/angle-up.svg" alt="arrow top">
-      </a>
-    </div>
-    <div class="footer__copy">
-      <p>@2020 O...Marketing</p>
-    </div>
-  </footer>
-
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="js/mixitup.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
